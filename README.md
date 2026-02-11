@@ -1,4 +1,4 @@
-# 👁️ Eye Disease Detection System
+#  Eye Disease Detection System
 
 A deep learning-based web application for detecting eye diseases from OCT (Optical Coherence Tomography) images using MobileNetV2 architecture with DRUSEN class weight boost.
 
@@ -195,19 +195,6 @@ Output (4 classes)
 - **Best Accuracy**: 93.44% on test set
 - **Training Time**: ~2-3 hours on GPU
 
-## 🐛 Troubleshooting
-
-**Problem**: "Model file not found"
-- Solution: Download and place `eye_disease_model_boosted_drusen.h5` in the project directory
-
-**Problem**: "ModuleNotFoundError"
-- Solution: Run `pip install -r requirements.txt`
-
-**Problem**: "Slow predictions"
-- Solution: Predictions are slowest on first run (model caching). Subsequent predictions are faster.
-
-**Problem**: "Out of memory"
-- Solution: Close other applications and try again. Requires ~4GB RAM.
 
 ## 📚 Dataset Information
 
@@ -217,32 +204,5 @@ Output (4 classes)
 - **DRUSEN Images**: 8,817 (8.1%)
 - **NORMAL Images**: 51,196 (47.0%)
 
-## 🔗 Resources
-
-- **TensorFlow**: https://tensorflow.org
-- **Streamlit**: https://streamlit.io
-- **MobileNet**: https://github.com/tensorflow/models
-
-## 📄 License
-
-This project is for educational and research purposes.
-
-## 👨‍💻 Author
-
-**Daksh1685**
-
-## 🙏 Acknowledgments
-
-- TensorFlow and Keras teams
-- Streamlit community
-- Dataset providers
-
-## 💬 Support
-
-For issues, questions, or suggestions, please open an issue on GitHub.
-
----
-
-**Happy Disease Detection! 👁️✨**
 
 > *Remember: This tool is for research only. Always consult medical professionals for clinical decisions.*
