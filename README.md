@@ -2,7 +2,7 @@
 
 A deep learning-based web application for detecting eye diseases from OCT (Optical Coherence Tomography) images using MobileNetV2 architecture with DRUSEN class weight boost.
 
-## 🎯 Features
+## Features
 
 - **Real-time Disease Detection**: Upload OCT images and get instant predictions
 - **4 Disease Classes**: CNV, DME, DRUSEN, NORMAL
@@ -11,7 +11,7 @@ A deep learning-based web application for detecting eye diseases from OCT (Optic
 - **Fast Inference**: Lightweight and optimized model
 - **Detailed Metrics**: View per-class performance metrics
 
-## 📊 Supported Diseases
+## Supported Diseases
 
 | Disease | Description | Abbreviation |
 |---------|-------------|--------------|
@@ -20,7 +20,7 @@ A deep learning-based web application for detecting eye diseases from OCT (Optic
 | **DRUSEN** | Age-related Macular Degeneration | DRUSEN |
 | **NORMAL** | Healthy Eyes | NORMAL |
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -57,7 +57,7 @@ streamlit run streamlit_app.py
 
 The app will open at `http://localhost:8501`
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 Eye-Disease-Detection/
@@ -69,7 +69,7 @@ Eye-Disease-Detection/
 └── .gitignore                          # Files to exclude from git
 ```
 
-## 💾 Model Details
+## Model Details
 
 **Architecture:** MobileNetV2
 - Pre-trained on ImageNet
@@ -90,7 +90,7 @@ Eye-Disease-Detection/
 | DRUSEN | 65.43% | 89.40% | 75.56% |
 | NORMAL | 97.93% | 96.44% | 97.18% |
 
-## 🖼️ Using the Application
+## Using the Application
 
 1. **Upload an Image**
    - Click on the upload area
@@ -113,7 +113,7 @@ Eye-Disease-Detection/
    - **Help**: FAQs and usage guide
 
 
-## 🔧 Technical Stack
+## Technical Stack
 
 - **Frontend**: Streamlit 1.28.0+
 - **Deep Learning**: TensorFlow 2.13.0+, Keras 3.0.0+
@@ -122,7 +122,7 @@ Eye-Disease-Detection/
 - **Visualization**: Matplotlib 3.7.0+, Seaborn 0.12.0+
 - **ML Tools**: scikit-learn 1.3.0+
 
-## 📋 Requirements
+## Requirements
 
 ```
 streamlit>=1.28.0
@@ -135,7 +135,7 @@ seaborn>=0.12.0
 scikit-learn>=1.3.0
 ```
 
-## 🏋️ Training
+## Training
 
 To retrain the model with your own data:
 
@@ -163,7 +163,7 @@ dataset/
     └── NORMAL/
 ```
 
-## 🎓 Model Architecture
+## Model Architecture
 
 ```
 Input (224×224×3)
@@ -179,7 +179,7 @@ Dense(4, Softmax)
 Output (4 classes)
 ```
 
-## 📈 Results
+## Results
 
 - **Trained on**: 109,309 OCT images
 - **Training Approach**: 3-phase transfer learning
