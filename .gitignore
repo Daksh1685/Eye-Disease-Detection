@@ -1,0 +1,85 @@
+# Model Files (Large binary files)
+*.h5
+*.pkl
+*.pth
+*.pt
+*.model
+
+# Datasets
+test/
+train/
+val/
+data/
+*.zip
+*.tar
+*.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Streamlit
+.streamlit/
+*.streamlit.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Images & Outputs
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+output/
+
+# Logs & Cache
+*.log
+*.csv
+test_report*.json
+*.csv
+
+# Documentation (optional - keep in separate folder)
+ANSWER_SUMMARY.md
+EXPECTED_RESULTS.md
+HYBRID_MODEL_GUIDE.md
+MODEL_REPORT.md
+DEPLOYMENT_CHECKLIST.txt
+DEPLOYMENT_SUMMARY.txt
+README_STREAMLIT.md
+QUICK_START.txt
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
