@@ -112,15 +112,6 @@ Eye-Disease-Detection/
    - **Model Info**: View architecture and metrics
    - **Help**: FAQs and usage guide
 
-## ⚠️ Important Disclaimer
-
-**This is a research and educational tool ONLY**
-
-- ❌ NOT approved for clinical diagnosis
-- ❌ NOT a substitute for professional medical evaluation
-- ⚠️ ALWAYS consult qualified ophthalmologists
-- ⚠️ Results must be validated by medical specialists
-- ❌ Never use for critical medical decisions
 
 ## 🔧 Technical Stack
 
@@ -194,15 +185,5 @@ Output (4 classes)
 - **Training Approach**: 3-phase transfer learning
 - **Best Accuracy**: 93.44% on test set
 - **Training Time**: ~2-3 hours on GPU
-
-
-## 📚 Dataset Information
-
-- **Total Images**: 109,309
-- **CNV Images**: 37,461 (34.3%)
-- **DME Images**: 11,483 (10.6%)
-- **DRUSEN Images**: 8,817 (8.1%)
-- **NORMAL Images**: 51,196 (47.0%)
-
 
 > *Remember: This tool is for research only. Always consult medical professionals for clinical decisions.*
